@@ -6,7 +6,7 @@
 #    By: lpaulo-m@student.42sp.org.br <lpaulo-m>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/25 19:09:29 by lpaulo-m@st       #+#    #+#              #
-#    Updated: 2021/02/25 19:12:37 by lpaulo-m@st      ###   ########.fr        #
+#    Updated: 2021/02/25 20:53:26 by lpaulo-m@st      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ say_time_and_exit() {
     exit 0
 }
 
-current_hour=$(date +"%I")
+current_hour=$(date +"%l")
 
 if [ "$((current_hour))" -eq 0 ]; then
     say_time_and_exit twelve
