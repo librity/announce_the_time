@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    on_the_hour.sh                                     :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lpaulo-m@student.42sp.org.br <lpaulo-m>    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2021/02/25 19:09:29 by lpaulo-m@st       #+#    #+#              #
+#    Updated: 2021/02/25 19:12:37 by lpaulo-m@st      ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #!/usr/bin/env bash
 
 say_time_and_exit() {
@@ -55,6 +67,6 @@ if [ "$((current_hour))" -eq 11 ]; then
     say_time_and_exit eleven
 fi
 
-if [ "$((current_hour))" -eq 9 ]; then
+if [ "$((current_hour))" -eq 12 ]; then
     say_time_and_exit twelve
 fi
