@@ -8,7 +8,7 @@ Inspired by this stack exchange question:
 
 - https://askubuntu.com/questions/686938/announce-the-time-on-the-hour
 
-It uses `festival`:
+It uses `festival` as its text-to-speech engine:
 
 - https://github.com/festvox/festival
 
