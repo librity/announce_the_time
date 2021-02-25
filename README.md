@@ -1,12 +1,16 @@
-# Announce bloody the time
+# Announce the bloody time
 
-Simple bash scripts that annouces the time every hour, much like in macos.
+Simple bash script that annouces the time every hour, much like in macos.
 
 - https://ioshacker.com/how-to/mac-announce-time-every-hour-guide
 
 Inspired by this stack exchange question:
 
 - https://askubuntu.com/questions/686938/announce-the-time-on-the-hour
+
+It uses `festival`:
+
+- https://github.com/festvox/festival
 
 ## Ubuntu Installation
 
