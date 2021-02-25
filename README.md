@@ -1,6 +1,6 @@
 # Announce the bloody time
 
-Simple bash script that annouces the time every hour, much like in macos.
+Simple bash script that annouces the time every hour, much like in macos:
 
 - https://ioshacker.com/how-to/mac-announce-time-every-hour-guide
 
